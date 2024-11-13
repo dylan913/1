@@ -1,1 +1,10 @@
-hello wrold
+module behave_try1(a,b,c,y);
+input a,b,c;
+output y;
+reg y;
+always @(a,b,c)
+begin
+y=(a&b)|(~c);
+end
+endmodule
+
